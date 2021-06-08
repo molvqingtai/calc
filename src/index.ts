@@ -1,4 +1,6 @@
-const calc = (a: number, b: number): void => {
-  console.log(a - b)
+const calc = (a: number, b: number): number => {
+  return a - b
 }
-calc(1024, 28)
+// - console.log(calc(1024, 28))
+// console.log(calc(1024, 28))
+export default calc
